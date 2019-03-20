@@ -1,0 +1,522 @@
+*
+{
+  font-family: 'Roboto', sans-serif;
+}
+hr
+{
+  width:15%;
+}
+body
+{
+  align-items: center;
+  min-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 100px;
+}
+
+/* Part.1 HEADER */
+header nav #select,header nav span /* Menu Smartphone */
+{
+  display: none;
+}
+header
+{
+  z-index: 10;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top:0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+header #logo
+{
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header nav
+{
+  position: relative;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header nav ul
+{
+  height: 100px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header nav ul li
+{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+header nav ul li:hover
+{
+  text-shadow: 1px 0 grey;
+  border-top: 2px solid #5cadd3;
+}
+header nav ul li a
+{
+  color: black;
+  text-decoration: none;
+}
+/* Part.1.5 ( BANNIERE ) */
+
+#banniere
+{
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+#banniere #scroll
+{
+  display: flex;
+  width: 200%;
+}
+#banniere #scroll span
+{
+  width: 100%;
+  height: auto;
+}
+#banniere #scroll span img
+{
+  width: 100%;
+  height: auto;
+}
+#scroll-left,#scroll-right
+{
+
+  border: none;
+  width: 30px;
+  height: 67px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self:center;
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  background-color: rgba(0,0,0, 0.2);
+}
+#banniere label span
+{
+  border: none;
+  width: 30px;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self:center;
+}
+#banniere input
+{
+  display: none;
+}
+#scroll-left:hover, #scroll-right:hover
+{
+  background-color: rgba(0,0,0,1);
+}
+#scroll-left,#scroll-left span
+{
+  border-radius: 0 30px 30px 0;
+  left: 0px;
+}
+#scroll-right,#scroll-right span
+{
+  border-radius: 30px 0 0 30px;
+  right: 0px;
+}
+#left:checked ~ #scroll
+{
+  transform: translateX(0%);
+  transition: transform 1s;
+}
+#right:checked ~ #scroll
+{
+  transform: translateX(-50%);
+  transition: transform 1s;
+}
+#banniere #text
+{
+  width: 63%;
+  position: absolute;
+  z-index: 2;
+  margin: 5%;
+  color: white;
+}
+
+#text h1
+{
+  font-size: xx-large;
+}
+#text h1 span
+{
+  color: #5cadd3;
+}
+#text a
+{
+  text-decoration: none;
+}
+#text a p
+{
+  display: flex;
+  background-color: #5cadd3;
+  width: 145px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 3px;
+}
+#text a p:hover
+{
+  background-color: white;
+  color: #5cadd3;
+}
+/* Part.2 ( NOS SERVICES) */
+
+#services
+{
+  padding-top:100px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom:100px;
+}
+#services div
+{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle
+{
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  position: absolute;
+  top: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5cadd3;
+}
+#services aside
+{
+  max-height: 319px;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+}
+#services aside img
+{
+  max-width: 510px;
+}
+#services aside figure
+{
+  width: 100%;
+  height: 106px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+}
+#services aside figure div
+{
+  position: relative;
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: #5cadd3;
+}
+#services .circle-right
+{
+  background-color: white;
+  left: 80%;
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5cadd3;
+}
+#services aside figure span
+{
+  font-weight: bold;
+}
+#texte figcaption
+{
+  width: 90%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+/*Part.3 ( NOS PROJETS) */
+
+#projet
+{
+  padding-top: 100px;
+  background-color: rgb(245,245,245);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom:100px;
+ }
+#projet .circle
+ {
+  top:-6px;
+ }
+#projet aside
+ {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+#projet div ul
+ {
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+#projet div ul li
+ {
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(229,229,229);
+  position: relative;
+ }
+#projet div ul li label
+ {
+  width: 100%;
+ }
+#projet div ul li .fas
+ {
+  font-size: 25px;
+  position: absolute;
+  top: 16px;
+  opacity: 0;
+ }
+#projet div ul li:hover 
+  {
+    color: white;
+    background: #5cadd3;
+    border-bottom: 2px solid #468cad;
+  }
+#projet div ul li:hover .fas
+  {
+    color: #468cad;
+    opacity: 1;
+  }
+#projet div
+ {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  position: relative;
+ }
+#projet div input
+ {
+  position: absolute;
+  width: 100px;
+ }
+#projet div figure
+ {
+  width:20%;
+  margin: 2%;
+  display:none;
+  flex-direction:column;
+  justify-content: flex-end;
+  position: relative;
+ }
+#projet div figure img
+{
+  width:100%;
+  height:auto;
+}
+#projet div figure figcaption
+{
+  width:100%;
+  height:40%;
+  position: absolute;
+  text-align:justify;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  color:white;
+  background-color:rgb(0,0,0,0.5);
+  opacity:0;
+  transition:opacity 1s;
+}
+#projet div figure:hover figcaption
+{
+opacity:1;
+}
+#projet div figure figcaption i
+{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -16px;
+  right: 15px;
+  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background-color: #5cadd3;
+}
+#projet div input
+{
+  display: none;
+}
+#all:checked ~ *.creative, #all:checked ~ *.corporate, #all:checked ~ *.portfolio
+{
+  display: flex;
+}
+#creative:checked ~ *.creative
+{
+  display: flex;
+}
+#corporate:checked ~ *.corporate
+{
+  display: flex;
+}
+#portfolio:checked ~ *.portfolio
+{
+  display: flex;
+}
+ /* Part.4 (CONTACT) */
+
+#contact
+{
+ width: 100%;
+ padding-top: 100px;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+#contact img
+{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+#contact form
+{
+  z-index: 2;
+  background-color: rgb(245,245,245);
+  opacity: 0.9;
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 130px;
+  bottom: 60px;
+  text-align: justify;
+}
+#contact form span
+{
+  text-decoration: none;
+  border-bottom: dotted 1px;
+}
+#contact input, #contact textarea
+{
+  margin-bottom: 15px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+#contact #submit
+{
+  background-color: #5cadd3;
+  height: 45px;
+  width: 145px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+}
+#contact #submit:hover
+{
+  text-shadow: 1px 1px grey;
+  cursor: pointer;
+  background-color: white;
+  color: #5cadd3;
+}
+#contact iframe
+{
+  width: 100%;
+  height: 600px;
+  border: none;
+  filter: url(#blue) contrast(70%);
+}
+#contact form h2,#contact form p
+{
+  height: 50px;
+  width: 90%;
+  align-self: center;
+}

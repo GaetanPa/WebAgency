@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/small-size.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <title> WebAgency </title>
+  </head>
+  <body id="start">
+<!-- en-tête -->
+    <header>
+        <div id="logo">
+            <a href="#start"><img src="index_files/images/logo.png" alt="logo" /></a>
+        </div>
+        <nav>
+            <input type="checkbox" id="select" />
+            <span id="a"></span>
+            <span id="b"></span>
+            <span id="c"></span>
+            <ul>
+                <li><a href="#start">Acceuil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projet">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Banderole -->
+    <section id="banniere">
+        <input type="radio" name="scroll" id="left" />
+        <input type="radio" name="scroll" id="right" />
+        <label for="left" id="scroll-left"><span><i class="fas fa-chevron-left"></i></span></label>
+        <label for="right" id="scroll-right"><span><i class="fas fa-chevron-right"></i></span></label>
+        <div id="text">
+                <h1><span>WEBAGENCY</span>: L'AGENCE DE TOUS VOS PROJETS !</h1>
+                <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                <a href="#services"><p>Plus d'infos</p></a>
+            </div>
+        <div id="scroll">
+            <span><img src="index_files/images/slider/bg1.jpg" alt="bg1" /></span>
+            <span><img src="index_files/images/slider/bg2.jpg" alt="bg2" /></span>
+        </div>
+    </section>
+<!-- Services -->
+    <section id="services">
+            <h2>NOS SERVICES</h2>
+        <div>
+            <span class="circle"><i class="fas fa-circle fa-1x"></i></span><hr />
+            <p>La réalisation d'un site web est souvent le parcours du combattant pour une personne non-initiée...<br /> Nos équipes de professionnelles mettent à disposition leurs compétences pour réaliser  votre projet de A à Z.</p>
+        </div>
+        <aside id="main-feature">
+            <img src="index_files/images/main-feature.png" alt="main-feature" />
+        </aside>
+        <aside id="texte">
+            <figure>
+                <div><i class="fas fa-chart-line fa-2x"></i><span class="circle-right"><i class="fas fa-circle fa-sm"></i></span></div>
+                <figcaption>
+                    <p><span>UX design</span><br />
+                    Prise en compte et anticipation des attentes et des besoins qu'auront les utilisateurs de votre site internet.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <div><i class="fas fa-cubes fa-2x"></i><span class="circle-right"><i class="fas fa-circle fa-sm"></i></span></div>
+                <figcaption>
+                    <p><span>UI design</span><br />
+                    Conception de l'interface qui liera vos utilisateurs à votre site web en créant l'identité visuelle de votre site, parmi lesquelles le design du logo, ainsi que le choix des couleurs et de la typographie.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <div><i class="fas fa-chart-pie fa-2x"></i><span class="circle-right"><i class="fas fa-circle fa-sm"></i></span></div>
+                <figcaption>
+                    <p><span>SEO</span><br />Optimisation de la qualité, la compréhension, mais surtout de la visibilité de votre site web au sein des résultats des moteurs de recherche.</p>
+                </figcaption>
+            </figure>
+        </aside>
+    </section>
+<!-- Portfolio -->
+    <section id="projet">
+        <h2>NOS PROJETS</h2>
+        <aside>
+            <span class="circle"><i class="fas fa-circle fa-1x"></i></span><hr />
+            <p>Manque d'inspiration?<br />
+            Voici quelques echantillons qui pourront vous donner des idées:</p>
+        </aside>
+        <div>
+            <ul>
+                <li><label for="all"><span>All Works</span></label><i class="fas fa-sort-down"></i></li>
+                <li><label for="creative"><span>Creative</span></label><i class="fas fa-sort-down"></i></li>
+                <li><label for="corporate"><span>Corporate</span></label><i class="fas fa-sort-down"></i></li>
+                <li><label for="portfolio"><span>Portfolio</span></label><i class="fas fa-sort-down"></i></li>
+            </ul>
+            <input type="radio" name="projet" id="all" checked/>
+            <input type="radio" name="projet" id="creative" />
+            <input type="radio" name="projet" id="corporate" />
+            <input type="radio" name="projet" id="portfolio" />
+            <figure class="creative">
+                <img src="index_files/images/portfolio/01.jpg" alt="image01" />
+                <figcaption> Visage à lunette <br />Animation/Humour<i class="far fa-eye"></i></figcaption>
+            </figure>
+            <figure class="creative">
+                <img src="index_files/images/portfolio/02.jpg" alt="image02" />
+                <figcaption> Lapin Abstrait <br />Enfant/Cadeaux<i class="far fa-eye"></i></figcaption>
+            </figure>
+            <figure class="corporate">
+                <img src="index_files/images/portfolio/03.jpg" alt="image03" />
+                <figcaption> Original <br /> Sigle/Logo/Marque <i class="far fa-eye"></i></figcaption>
+            </figure>
+            <figure class="portfolio">
+                <img src="index_files/images/portfolio/04.jpg" alt="image04" />
+                <figcaption> Document <br />Rédaction/Information<i class="far fa-eye"></i></figcaption>
+            </figure>
+            <figure class="portfolio">
+                <img src="index_files/images/portfolio/05.jpg" alt="image05" />
+                <figcaption> "Shopping Bag" <br />Shopping/Vente <i class="far fa-eye"></i></figcaption>
+            </figure>
+            <figure class="corporate">
+                <img src="index_files/images/portfolio/06.jpg" alt="image06" />
+                <figcaption> Décor <br />
+                Voyage/Construction<i class="far fa-eye"></i></figcaption>
+            </figure>
+            <figure class="corporate">
+                <img src="index_files/images/portfolio/07.jpg" alt="image07" />
+                <figcaption> Fusée <br />Mécanique/Espace <i class="far fa-eye"></i></figcaption>
+            </figure>
+            <figure class="portfolio">
+                <img src="index_files/images/portfolio/08.jpg" alt="image08" />
+                <figcaption> Bureau <br />Cloud/Theme<i class="far fa-eye"></i></figcaption>
+            </figure>
+        </div>
+    </section>
+<!-- Contact -->
+    <section id="contact">
+        <form method="post" action="traitement.php">
+            <h2>Contact Info</h2>
+            <p><strong>WebAgency SAS</strong><br />
+            25 Rue d'Hauteville 75010 Paris<br />
+            <span>Tel:</span>01 02 03 04 05</p>
+            <input type="text" name="conta" placeholder="Name" />
+            <input type="email" name="email" placeholder="Email" />
+            <input type="text" name="subject" placeholder="Subject" />
+            <textarea name="message" id="message" rows="5" cols="20" placeholder="Your Message"></textarea>
+            <input type="button" name="submit" id="submit" value="Send Message" />
+        </form>
+        <svg>
+<filter id="blue">
+<feColorMatrix type="matrix" values=".5 0 0 0 0   0 .8 0 0 0  0 0 1 0 0  0 0 1 1 0"/>
+</filter>
+</svg>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246133285!2d2.347631650865948!3d48.87305530752703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1442c049bb%3A0x30a290491097f07f!2sWebAgency!5e0!3m2!1sfr!2sfr!4v1552650142895"></iframe>
+    </section>
+  </body>
+</html>
