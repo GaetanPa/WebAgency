@@ -42,10 +42,6 @@ header #logo
   justify-content: center;
   align-items: center;
 }
-header #logo:hover
-{
-  border-top: 2px solid #5cadd3;
-}
 header nav
 {
   position: relative;
