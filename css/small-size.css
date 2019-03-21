@@ -3,6 +3,8 @@
 {
 	#services aside
 	{
+		max-height: unset;
+		height: 400px;
 		width: 80%;
 	}
 	#services aside figure
