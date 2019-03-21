@@ -517,6 +517,7 @@ opacity:1;
   height: 600px;
   border: none;
   filter: url(#blue) contrast(70%);
+  -webkit-filter: url(#blue) contrast(70%);
 }
 #contact form h2,#contact form p
 {
