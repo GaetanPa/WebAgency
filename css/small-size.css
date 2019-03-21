@@ -2,32 +2,38 @@
 
 {
 	#services aside
-    {
-        width: 80%;
-    }
-    #projet div figure
-    {
+	{
+		width: 80%;
+	}
+	#services aside figure
+	{
+		width: 100%;
+	}
+	#projet div figure
+	{
     	width: 25%;
-    }
-    #contact form
-    {
+	}
+	#contact form
+    	{
     	text-align: center;
     	width: 100%;
     	height: auto;
     	position: unset;
-    }
+    	}
     
 }
 @media all and (max-device-width: 800px) , screen and (orientation: landscape)
+	
 {
 	#projet div figure
-    {
+    	{
     	width: 45%;
-    }
+    	}
  	h2
  	{
  		font-size: 60px;
  	}
+/* header */
 	header nav span
 	{
 		z-index: 3;
@@ -117,17 +123,17 @@
 		padding-top: 10px;
    		padding-bottom: 20px;
 		color: black;
-    	width: 100%;
-    	position: unset;
-	    z-index: 2;
-	    margin: auto;
-	    text-align: center;
-	    background-color: rgb(245,245,245);
-	    border-radius: 10px 10px 0 0;
-	    display: flex;
-    	flex-direction: column;
-    	justify-content: center;
-    	align-items: center;
+    		width: 100%;
+    		position: unset;
+		z-index: 2;
+		margin: auto;
+		text-align: center;
+		background-color: rgb(245,245,245);
+		border-radius: 10px 10px 0 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	#scroll-left, #scroll-right
 	{
