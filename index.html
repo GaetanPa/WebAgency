@@ -29,12 +29,12 @@
     <meta property="fb:admins" content="Facebook numeric ID" />
   </head>
   <body id="start">
-<!-- en-tête -->
-    <header>
+<!-- Navigation -->
+    <nav>
         <div id="logo">
             <a href="#start"><img src="index_files/images/logo.png" alt="logo" /></a>
         </div>
-        <nav>
+        <div id="menu">
             <input type="checkbox" id="select" />
             <span id="a"></span>
             <span id="b"></span>
@@ -45,10 +45,10 @@
                 <li><a href="#projet">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-<!-- Banderole -->
-    <section id="banniere">
+        </div>
+    </nav>
+<!-- Header -->
+    <header>
         <input type="radio" name="scroll" id="left" />
         <input type="radio" name="scroll" id="right" />
         <label for="left" id="scroll-left"><span><i class="fas fa-chevron-left"></i></span></label>
@@ -56,13 +56,13 @@
         <div id="text">
                 <h1><span>WEBAGENCY</span>: L'AGENCE DE TOUS VOS PROJETS !</h1>
                 <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
-                <a href="#services"><p>Plus d'infos</p></a>
+                <p id="button"><a href="#services">Plus d'infos</a></p>
             </div>
         <div id="scroll">
             <span><img src="index_files/images/slider/bg1.jpg" alt="bg1" /></span>
             <span><img src="index_files/images/slider/bg2.jpg" alt="bg2" /></span>
         </div>
-    </section>
+    </header>
 <!-- Services -->
     <section id="services">
             <h2>NOS SERVICES</h2>
@@ -151,7 +151,7 @@
         </div>
     </section>
 <!-- Contact -->
-    <section id="contact">
+    <footer id="contact">
         <form method="post" action="traitement.php">
             <h2>Contact Info</h2>
             <p><strong>WebAgency SAS</strong><br />
@@ -166,6 +166,6 @@
       <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246133285!2d2.347631650865948!3d48.87305530752703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1442c049bb%3A0x30a290491097f07f!2sWebAgency!5e0!3m2!1sfr!2sfr!4v1552650142895"></iframe>
       </div>
-    </section>
+    </footer>
   </body>
 </html>

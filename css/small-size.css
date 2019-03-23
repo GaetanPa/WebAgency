@@ -28,7 +28,7 @@
  	{
  		font-size: 60px;
  	}
-	header nav span
+	nav #menu span
 	{
 		z-index: 3;
 		position: absolute;
@@ -39,21 +39,21 @@
 		background-color: grey;
 		transition: transform 1s;
 	}
-	header nav #a
+	nav #menu #a
 	{
 		top: 35px;
 	}
-	header nav #b
+	nav #menu #b
 	{
 		top: 50px;
 		opacity: 1;
 		transition: opacity 1s;
 	}
-	header nav #c
+	nav #menu #c
 	{
 		top: 65px;
 	}
-	header nav #select
+	nav #menu #select
 	{
 		z-index: 5;
 		height: 100px;
@@ -63,11 +63,11 @@
 		display: unset;
 		opacity: 0;
 	}
-	header nav
+	nav #menu
 	{
 		align-items: flex-end;
 	}
-	header nav ul
+	nav #menu ul
 	{
 		padding: 0px;
 		height: 250px;
@@ -81,38 +81,38 @@
 		border-radius: 11px;
     	box-shadow: 0px 3px 8px grey;
 	}
-	header nav ul li
+	nav #menu ul li
 	{
 		font-weight: bold;
 		width: 150px;
 	}
-	header nav #select:checked ~ #a
+	nav #menu #select:checked ~ #a
 	{
 		transform: translateY(15px) rotate(-45deg);	
 	}
-	header nav #select:checked ~ #b
+	nav #menu #select:checked ~ #b
 	{
 		opacity: 0;
 		transition: opacity 1s;
 	}
-	header nav #select:checked ~ #c
+	nav #menu #select:checked ~ #c
 	{
 		transform: translateY(-15px) rotate(45deg);
 	}
-	header nav #select:checked ~ ul
+	nav #menu #select:checked ~ ul
 	{
 		transform: translateY(348px);
 		opacity: 1;
 		transition: all 1s;
 	}
-	header nav ul li:hover
+	nav #menu ul li:hover
 	{
 		color: white;
 		text-shadow: 1px 0 white;
 		background-color: #5cadd3;
 	}
-/* banniere */
-	#banniere #text
+/* header */
+	header #text
 	{
 		padding-top: 10px;
    		padding-bottom: 20px;
