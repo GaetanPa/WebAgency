@@ -159,10 +159,12 @@ header input
 }
 header #text
 {
-  width: 63%;
+  width: 37%;
   position: absolute;
   z-index: 2;
   margin: 5%;
+  margin-left: 15%;
+  margin-top: 9%;
   color: white;
 }
 
