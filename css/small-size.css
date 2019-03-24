@@ -18,7 +18,7 @@
     }
     
 }
-@media all and (max-device-width: 800px) , screen and (orientation: landscape)
+@media all and (max-device-width: 800px)
 {
 	#projet div figure
     {
