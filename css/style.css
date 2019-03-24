@@ -345,6 +345,7 @@ header #text
 }
 #projet div ul li
  {
+  cursor: pointer;
   text-decoration: none;
   width: 100px;
   height: 30px;
