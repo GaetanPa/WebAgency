@@ -17,7 +17,8 @@ body
 }
 
 /* Part 1 NAV */
-nav #select,nav span /* Menu Smartphone */
+
+nav #select,nav span /* Hamburger Menu */
 {
   display: none;
 }
@@ -197,6 +198,7 @@ header #text
 {
   color: #5cadd3;
 }
+
 /* Part.3 ( NOS SERVICES) */
 
 #services
@@ -295,6 +297,7 @@ header #text
   padding-left: 3%;
   padding-right: 3%;
 }
+
 /*Part.4 ( NOS PROJETS) */
 
 #projet
@@ -356,6 +359,7 @@ header #text
 #projet div ul li label
  {
   width: 100%;
+  cursor:pointer;
  }
 #projet div ul li .fas
  {
