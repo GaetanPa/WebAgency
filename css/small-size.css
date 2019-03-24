@@ -5,6 +5,10 @@
     {
         width: 80%;
     }
+    #services aside figure
+    {
+    	margin-top: 5%;
+    }
     #projet div figure
     {
     	width: 25%;
@@ -21,6 +25,7 @@
     	margin: 5%;
     	margin-top: unset;
     }
+
     
 }
 @media all and (max-device-width: 800px)
