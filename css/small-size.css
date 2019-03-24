@@ -28,7 +28,7 @@
 
     
 }
-@media all and (max-device-width: 800px)
+@media all and (max-device-width: 800px), (orientation: landscape)
 {
 	#projet div figure
     {
