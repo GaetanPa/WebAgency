@@ -20,6 +20,10 @@
     	height: auto;
     	position: unset;
     }
+    footer #submit
+    {
+    	align-self: center;
+    }
     header #text
     {
     	margin: 5%;
