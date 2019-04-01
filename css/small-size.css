@@ -24,10 +24,17 @@
     {
     	align-self: center;
     }
+    footer form h2
+    {
+    	font-size: 60px;
+    }
     header #text
     {
-    	margin: 5%;
     	margin-top: unset;
+    }
+    header #text h1
+    {
+    	font-size: xx-large;
     }
 
     
